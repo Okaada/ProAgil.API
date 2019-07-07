@@ -56,7 +56,7 @@ namespace ProAgil.API.Controllers
             catch (System.Exception)
             {
                 
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Failed to Connect the Database dude");
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Failed to Connect the Database");
             }
 
         }
