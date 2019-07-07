@@ -1,0 +1,20 @@
+<p>
+  Component Event is Working!
+</p>
+
+<!--It`s a directive that works like a for
+    Here I created a ITEM == event of LIST == events 
+    events is declared at Events Typescript-->
+<div *ngFor="let event of events">
+  Event ID: {{event.eventId}}
+  <br>
+  Event Date: {{event.eventDate}}
+  <br>
+  Theme: {{event.theme}}
+  <br>
+  Quantity: {{event.peopleQt}}
+  <br>
+  Locale: {{event.locale}}
+  <hr>
+  <br>
+</div>
